@@ -1,1 +1,11 @@
 # SDA-Tema2
+1. Declarati si initializati 2 variabile de tip int. Declarati si initializati unei variabile numita "operatie" unul dintre urmatoarele simboluri: +, -, /, *, %, |, &. Folosind instructiunile de control ale flow-ului invatate, afisati rezultatul corespunzator operatiei dintre cele 2 numere in functie de valoarea pe care o are variabila "operatie" -> in cazul in care e +, afisati suma celor 2 numere; in cazul in care e -, diferenta, etc. (rezolvati problema in 2 moduri, unul in care folositi instructiunea IF, si altul in care folositi SWITCH)
+2. Declarati si initializati 2 variabile de tip String. Afisati care dintre acestea are suma valorilor caracterelor in codul ASCII mai mare (ex: AAB mai mic decat zz    -> "AAB" = 65+65+66 = 196 "zz" = 122+122 = 244  -> 196 < 244).
+3. Declarati si initializati o variabila de tip String. Afisati mesajul *-*-* de atatea ori echivalent cu numarul de caractere al string-ului citit. Mesajele se afiseaza pe cate o linie noua.
+4. Declarati si initializati 2 variabile de tip int - numar, adaos. Contorizati de cate ori trebuie adunat adaos-ul numarului citit pentru ca acesta sa fie divizibil cu 13. Afisati si numar divizibil cu 13 la care s-a ajuns prin adunarile succesive ale adaos-ului la numarul initial.
+5. Declarati si initializati o variabila de tip int. Utilizand while, afisati ultima cifra a numarului initial, atat timp cat, utima cifra a numarului care urmeaza sa fie trunchiat rand pe rand este divizibila cu 3. ( ex: 235693 - afisam 333   ->3,9,6 divizibile cu 3) 
+6. Declarati si initializati un numar de tip short. Afisati numerele din 2 in 2 incepand de la valoarea citita pana la 200.
+7. OOP - Creati o clasa Copil care sa contina numele acestuia, varsta si numarul de jucarii. Implementati metodele "bunaZiua", in care sa afiseze mesajul "Buna Ziua", metoda "salut", care primeste ca parametru un nume (de exemplu, Daniel) si va afisa "Salut, Daniel", precum si o metoda in care acesta poate primi o noua jucarie (o data sau de mai multe ori) in care sa actualizati numarul curent de jucarii. Creati o clasa Main in care sa demonstrati functionalitatile create.
+
+Pentru cei care vor sa lucreze suplimentar, le recomand de pe https://codingbat.com/java  exercitiile de la String si Logic. 
+Spor!
