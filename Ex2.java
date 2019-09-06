@@ -7,25 +7,24 @@ public class Ex2 {
     public static void main(String[] Args) {
         String string1 = "AAB";
         String string2 = "zz";
-
-        byte[] ascii1 = string1.getBytes();
-        int sumaAscii1 = 0;
-        for (int a = 0; a < string1.length(); a++) {
-            sumaAscii1 += ascii1[a];
-        }
-
-        byte[] ascii2 = string2.getBytes();
-        int sumaAscii2 = 0;
-        for (int a = 0; a < string2.length(); a++) {
-            sumaAscii2 += ascii2[a];
-        }
-
-        boolean sumaCaractere = (sumaAscii1 > sumaAscii2);
-        if (sumaCaractere) {
-            System.out.println(string1 + " mai mare decat " + string2);
-        } else {
+        if (sumaCaractere(string1) < sumaCaractere(string2)) {
             System.out.println(string1 + " mai mic decat " + string2);
+        } else if (sumaCaractere(string1) > sumaCaractere(string2)) {
+            System.out.println(string1 + " mai mare decat " + string2);
+        } else if (sumaCaractere(string1) == sumaCaractere(string2)) {
+            System.out.println(string1 + " este egal cu " + string2);
         }
+    }
 
+    private static int sumaCaractere(String sirCaractere) {
+        int sumaAscii = 0;
+        for (int i = 0; i < sirCaractere.length(); i++) {
+            sumaAscii += sirCaractere.charAt(i);
+        }
+        System.out.println(sirCaractere + " = " + sumaAscii);
+        return sumaAscii;
     }
 }
+
+
+
